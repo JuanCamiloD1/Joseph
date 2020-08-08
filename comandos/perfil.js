@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const rep = require("discord-gestor");
   module.exports = (client, message, args) => { 
     let userm = message.mentions.users.first()
       var user = message.author;
