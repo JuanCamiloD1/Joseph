@@ -1,0 +1,28 @@
+const Discord = require("discord.js");
+  module.exports = (client, message, args) => { 
+    const embed = new Discord.RichEmbed()
+    .setColor("RANDOM")
+    .setTitle("Comando Help")
+    .setDescription("El comando de ayuda tiene todos los comandos del bot", true)
+    .addField("Hug: Le das un abrazo a otro")
+    .addField("Kiss: Le das un beso a otro")
+    .addField("Wasted: Matas a alguien")
+    .addField("Slap: Le das una bofetada a alguien")
+    .addField("Sleep: Te duermes")
+    .addField("Punch: Golpeas a alguien")
+    .addField("Cry: Te pones a llorar :'(")
+    .addField("Cuddle: Te acurrucas con un usuario")
+    .addField("Ping: Comando de prueba, verifica el estado del bot con la API de Discord")
+    .addField("Invite: Muestra el enlace para invitar al bot a tu servidor")
+    .addField("Husbando: Te muestra un husbando")
+    .addField("Waifu: Te muestra una waifu")
+    .addField("Nocontext: Manda un enlace aleatorio de algo interesante en inernet")
+    .addField("Perfil: Muestra tu perfil")
+    .addField("Avatar: Muestra tu avatar o el de otro usuario")
+    .addField("Escanor: Muestra a Escanor")
+    .addField("Beer: Para beber con los compas")
+    .addField("Anvorguesa: Para comer anvorguesas con los compas")
+    .setImage("https://media.giphy.com/media/OFmIiJ6rQ1Udy/giphy.gif")
+    .setFooter("Version 1.0, HawkTheBot esta bajo una licencia GNU")
+    message.channel.send(embed);   
+  }
