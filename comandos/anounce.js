@@ -13,7 +13,7 @@ let perms = message.member.hasPermission("MANAGE_GUILD");
     //.setTitle('¡Un nuevo mensaje!')
     .setDescription(anuncio) //El anuncio
     .setColor("#2f3136")
-  client.channels.get('734864394533470244').send(embed); //Enviamos el embed (anuncio) a un canal por ID
-  //client.channels.get('735233291333927022').send('| |') //Para que mencione a los miembros con un everyone
-  message.channel.send(':incoming_envelope:| Mensaje Enviado') //Mensaje que envia al canal donde se ejecuto el comando
+  client.channels.get('739203900078555206').send(embed); //Enviamos el embed (anuncio) a un canal por ID
+  //client.channels.get('739203900078555206').send('| |') //Para que mencione a los miembros con un everyone
+  message.channel.send(':incoming_envelope:| Anuncio Enviado') //Mensaje que envia al canal donde se ejecuto el comando
 }
