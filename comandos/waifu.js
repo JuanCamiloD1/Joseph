@@ -10,6 +10,11 @@ let gifs = ["https://thumbs.gfycat.com/AffectionateCheapFeline-small.gif",
 "https://media1.tenor.com/images/72c22f7d3810e92968cd550d9a69239c/tenor.gif?itemid=14506127",
 "https://pm1.narvii.com/6841/82823ad29f627864f7e9d4acc50f6638c0fd2f74v2_hq.jpg",
 "https://img-9gag-fun.9cache.com/photo/apmobED_460s.jpg",
+"https://media.tenor.com/images/75de692f3079bebdac82e3667c0a94cd/tenor.gif",
+"https://64.media.tumblr.com/008a2224a57339b8d2cca2f73545cab6/tumblr_myozzdZGFL1rnte9xo8_250.gifv",
+"https://media.tenor.com/images/4632e943653b0ad278a1fa7b8f49d82c/tenor.gif",
+"https://media.tenor.com/images/5be4ce8a370604b28abf46ce0057c701/tenor.gif",
+"https://media.tenor.com/images/baf3094e3b2251fe16bd270bcf73aafc/tenor.gif",
 ];
 let cap = gifs[Math.floor(gifs.length * Math.random())]; 
 let pr = message.mentions.users.first();

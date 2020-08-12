@@ -26,6 +26,7 @@ module.exports = (client, message, args) => {
     .addField("perfil:","Revisas tu perfil en el server")
     .addField("ping:","Mira el ping del bot respecto a la API de Discord")
     .addField("punch:","Golpeas a un usuario")
+    .addField("poll:","Creas una encuesta o sugerencia para el server")
     .addField("server:","Info del server")
     .addField("slap:","Le das una bofetada a alguien")
     .addField("sleep:","Te vas a mimir")

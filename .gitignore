@@ -125,8 +125,6 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
-
-
 # End of https://www.toptal.com/developers/gitignore/api/node,git
 # al actualizar agregar al gitignore config.js
 config.js

@@ -20,6 +20,8 @@ let gifs = ["https://media.giphy.com/media/JFmIDQodMScJW/giphy.gif",
 "https://media1.tenor.com/images/e46f97aae4bdaba14cd95b2b35dda4d2/tenor.gif?itemid=15489397",
 "https://i.pinimg.com/originals/e3/4e/31/e34e31123f8f35d5c771a2d6a70bef52.gif",
 "https://acegif.com/wp-content/uploads/anime-kiss-m.gif",
+"https://media.tenor.com/images/f80efa9ff2dfe8154545f2b5517b0df7/tenor.gif",
+"https://media.tenor.com/images/9d414a32b242eab648a5f030e35f644c/tenor.gif",
 ];
 let cap = gifs[Math.floor(gifs.length * Math.random())]; 
 let pr = message.mentions.users.first();
